@@ -47,10 +47,32 @@ time to put in color controls into the application.
 ======
 Part C
 ======
-For my cellular automota, I made these rules:\
-1 - 6 colors exist, each one in the wheel gets eaten by the next
+For my cellular automota, I made these rules:
+1 - 6 colors { <- red <- cyan <- yellwo <- green <- blue <- pink <-} 
+2 - Eaten <-- Killer (wraps around)
+3 - Each cell looks at its 24 double neighbors
+4 - If there are enough Killers and not enough Saviors, 
+    that cell becomes its killer, otherwise is stays
+The number of killers needed is 3, the number of svaiors needed is 18.
+The script used to iterate the texture uses the ping pong method
+described in class. It also allows for setting the update speed
+and height/width per object.
 
 ======
 Part D
 ======
-
+What do you like about it?
+ - It has a very grand effect, there is a lot of weight and intensity behind this still image
+Does the effect change depending on the camera view? The lights? 
+ - It changes the lights
+Is it an effect that updates the geometry itself, or change the color of the pixels, or does it alter a texture?
+ - There is a strong light being created from the center of the laser, and I imagine
+   that the laser itself is a dynamic, semi-transparent texture put on top of a simple cylinder 
+How do you think it was created? 
+ - see above. There was also likely a lot of work put into the surroundings of the laser to allow
+   its lights to affect them
+What is the effect called? 
+Do some research/Googling and see if you can find papers, online tutorials, or blog posts that give insight into how it
+was created and how you might emulate it in a Unity shader.
+ - No tutorials, but many people use this as an example for effects that would look good on a
+   portfolio for visual effects.
