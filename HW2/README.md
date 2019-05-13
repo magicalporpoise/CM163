@@ -4,8 +4,12 @@ Philip Stanley
 Usage:
 ------
 arrow keys:
-<= and => to rotate
-|^| and |v| to move forward and backwards
+
+1. left and right to rotate
+
+2. up and down to move forward and backwards
+
+3. escape to exit
 
 collect the food!
 
