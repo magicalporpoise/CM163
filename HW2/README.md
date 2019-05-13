@@ -15,3 +15,12 @@ collect the food!
 
 Assignment Specifications:
 --------------------------
+Part A:
+- tron filter - black and white outlines that pusle
+- bloom shader - attached to camera, based on tutorial from catlikecoding.com
+
+Part B:
+- heightmap - noise terrain + guide image of the moon, STILL NEEDS TEXTURE
+- cubemap sky - constructed out of hand made cube map cross
+- STILL NEED BODY OF WATER
+- STILL NEED PROPERTIES TO ADJUST ON USER INPUT
