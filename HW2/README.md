@@ -22,5 +22,9 @@ Part A:
 Part B:
 - heightmap - noise terrain + guide image of the moon, STILL NEEDS TEXTURE
 - cubemap sky - constructed out of hand made cube map cross
-- STILL NEED BODY OF WATER
-- STILL NEED PROPERTIES TO ADJUST ON USER INPUT
+- water - transparent but reflective plane
+- change in shaders - the more food you collect, the wilder the player shader gets
+
+Credits:
+--------
+Music by Kevin Macleaod - https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200091&Search=Search
